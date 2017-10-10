@@ -1,0 +1,290 @@
+html {
+    height: auto;
+    min-height: 100%;
+}
+
+body{
+    font-family:verdana;
+    margin: 0;
+    height:100%;
+}
+
+#profilebg {
+    background: -webkit-linear-gradient(#9F36C4, #DD51A7); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#9F36C4, #DD51A7); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#9F36C4, #DD51A7); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#9F36C4, #DD51A7); /* Standard syntax (must be last) */
+    background-repeat: no-repeat;
+    background-color: #DD51A7; /* For browsers that do not support gradients */ 
+}
+
+.para01{
+    margin:auto;
+    padding:30px;
+    border-width:2px;
+    border-style:solid;
+    width: 600px;
+    height: 80px;
+}
+
+.para02{
+    margin:0;
+    padding:30px;
+    border-width:2px;
+    padding-bottom: 20px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 22px;
+}
+.loginbox{
+    width:300px;
+    height:370px;
+}
+
+.formdiv {
+    background-color:white;
+    padding:0;
+    margin-top:0;
+    border-radius: 5px;
+    /*text-align: center;*/
+    height: 350px;
+}
+.center {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+}
+.textcenter{
+    text-align: center;
+    margin-top:0;
+    margin-bottom: 20px;
+}
+
+#logindecor{
+    margin:0;
+    padding:0;
+    height:5px;
+}
+
+#div1, #div2, #div3, #div4, #div5, #div6, #div7, #div8{
+    width:37.5px;
+    height:10px;
+    float:left;
+    margin-top:0;
+    padding-top:0;
+}
+#div1{
+    background-color:rgb(194,226,123);
+    border-radius: 5px 0 0 0;
+}
+#div2{
+    background-color:rgb(246,253,201);
+}
+#div3{
+    background-color:rgb(254,206,109);
+}
+#div4{
+    background-color:rgb(240,119,106);
+}
+#div5{
+    background-color:rgb(221,156,190);
+}
+#div6{
+    background-color:rgb(194,157,222);
+}
+#div7{
+    background-color:rgb(100,154,225);
+}
+#div8{
+    background-color:rgb(96,193,225);
+    border-radius: 0 5px 0 0;
+}
+
+.loginbg {
+    width: 60%;
+    height: 500px;
+    background-image: url("image/pro5.png");
+    background-repeat: no-repeat;
+    /*background-position: 400px 8px;*/
+    
+}
+
+input[type=textbox], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 12px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    outline: 0;
+    background: transparent;
+    border: 1px solid #c6c6c6;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.39), 0 -1px 1px #FFF, 0 1px 0 #FFF;
+}
+h2{
+    color:white;
+    font-family: 'Londrina Shadow', cursive;
+    font-size: 50px;
+}
+input[type=submit], input[type=button]  {
+    background-color: rgb(240, 192, 249); /*  */
+    border: none;
+    color: rgb(206, 55, 252);
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    /*width:100%;*/
+    border-radius: 5px;
+}
+
+.loginbutton {
+    width: 100%;
+    padding: 15px 32px;
+    margin: 4px 2px;    
+}
+
+input[type=submit]:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.register{
+    color: black;
+    text-align: center;
+    display:block;
+    font-family: 'Amatic SC', cursive;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.profilediv{
+    width: 960px;
+    height: 750px;
+    text-align: center;
+    color: white;
+    
+    background: -webkit-linear-gradient(#9132AF, #EEBACD); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#9132AF, #EEBACD); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#9132AF, #EEBACD); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#9132AF, #EEBACD); /* Standard syntax (must be last) */ 
+
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.left{
+    width: 300px;
+    float: left;
+    text-align: left;
+    margin-left: 160px;
+    /*border: 1px solid white;*/
+}
+.right{
+    width: 300px;
+    float: left;
+    text-align: left;
+    margin-left: 150px;
+    /*border: 1px solid white;*/
+}
+.emergency{
+    margin-top:20px;
+    width: 900px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 0;
+    font-family: 'Londrina Shadow', cursive;
+    font-size: 50px;
+    color: black;
+}
+.button1{
+   width: 80px;
+   height: 40px; 
+   padding: 5px 10px;
+}
+
+.buttonprof {
+    width: 940px;
+    text-align: right;
+    position: absolute;   
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
+.prof1 {
+    float:center;
+    text-align: center;
+    position: relative;
+}
+
+.registerdiv {
+    width: 700px;
+    height: 500px;
+    text-align: center;
+    background-color: white;   
+}
+
+.registerform {
+    margin-top: 50px;
+    text-align: left;
+    width: 500px;
+}
+
+.registerform1 {
+    text-align: left;
+}
+
+.button2 {
+    padding: 10px 10px;
+}
+
+h3 {
+    margin-bottom:0;
+}
+
+.editbox {
+    width: 650px; 
+    height: 460px; 
+    overflow-y: scroll;
+    margin-top:20px;
+    margin-left: 20px;
+    padding-right: 10px;
+}
+
+.editdiv {
+    width: 700px;
+    height: 550px;
+    text-align: center;
+    background-color: white;   
+}
+
+.image{
+    float:left;
+}
+
+.prof2{
+    width: 300px;
+    border: 1px solid black;
+    height: 160px;
+    background-color:white;
+}
+
+.hp1{
+    margin-top: 5px;
+}
+
+.button3{
+    width: 80px;
+   height: 30px; 
+   padding: 5px 10px;
+}
+
+.porf3{
+    
+}
